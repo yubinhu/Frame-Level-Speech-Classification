@@ -26,7 +26,7 @@ class MyDataset(data.Dataset):
         self.context_size = context_size
 
     def __len__(self):
-        return 100 #len(self.locator)
+        return len(self.locator)
 
     def __getitem__(self,index):
         i, j = self.locator[index]
