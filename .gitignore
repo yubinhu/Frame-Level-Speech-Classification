@@ -1,6 +1,8 @@
 # Data file, and pdfs
 Data/
 doc/
+Models/Toy/
+Graphs/Toy/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
