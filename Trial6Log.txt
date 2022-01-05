@@ -1,0 +1,75 @@
+Epoch 1
+Training Loss:  1.0222460309480035 Time:  1115.280332326889 s
+Testing Loss:  1.10918362306259
+Testing Accuracy:  66.64956663561797 %
+====================
+Epoch 2
+Training Loss:  1.0209614198524866 Time:  1088.9904673099518 s
+Testing Loss:  1.1091179718056294
+Testing Accuracy:  66.6603639361895 %
+====================
+Epoch 3
+Training Loss:  1.0198884134733446 Time:  1056.005381822586 s
+Testing Loss:  1.1112628365396129
+Testing Accuracy:  66.62296084712831 %
+====================
+Epoch 4
+Training Loss:  1.0189836356440078 Time:  1070.9140033721924 s
+Testing Loss:  1.1133879503381532
+Testing Accuracy:  66.56292992241958 %
+====================
+Epoch 5
+Training Loss:  1.0181522821397662 Time:  1098.0895092487335 s
+Testing Loss:  1.1127844820362145
+Testing Accuracy:  66.59847318937277 %
+====================
+Epoch 6
+Training Loss:  1.0174189267066047 Time:  1073.5440170764923 s
+Testing Loss:  1.1083137383460369
+Testing Accuracy:  66.67694734998597 %
+====================
+Epoch 7
+Training Loss:  1.016831064034367 Time:  1056.3627672195435 s
+Testing Loss:  1.1153519407123587
+Testing Accuracy:  66.5118881378996 %
+====================
+Epoch 8
+Training Loss:  1.0162037310730718 Time:  1089.4181241989136 s
+Testing Loss:  1.1091443675909367
+Testing Accuracy:  66.67570746858063 %
+====================
+Epoch 9
+Training Loss:  1.015600322307477 Time:  1085.1247861385345 s
+Testing Loss:  1.1071925038100865
+Testing Accuracy:  66.72163474230356 %
+====================
+Epoch 10
+Training Loss:  1.0150793204528803 Time:  1059.854258298874 s
+Testing Loss:  1.1110616527168689
+Testing Accuracy:  66.62668049134433 %
+====================
+Epoch 11
+Training Loss:  1.014739189950383 Time:  1084.0283308029175 s
+Testing Loss:  1.1100976769727426
+Testing Accuracy:  66.6233741409301 %
+====================
+Epoch 12
+Training Loss:  1.014274508498217 Time:  1106.4059278964996 s
+Testing Loss:  1.1040596355248369
+Testing Accuracy:  66.81193943799275 %
+====================
+Epoch 13
+Training Loss:  1.0138650871041408 Time:  1130.896816253662 s
+Testing Loss:  1.1045863030725167
+Testing Accuracy:  66.76900854433273 %
+====================
+Epoch 14
+Training Loss:  1.0133972626330119 Time:  1143.7167954444885 s
+Testing Loss:  1.1110457447755278
+Testing Accuracy:  66.64837841593784 %
+====================
+Epoch 15
+Training Loss:  1.0132277833325711 Time:  1144.9261338710785 s
+Testing Loss:  1.1048275210836267
+Testing Accuracy:  66.80940801345685 %
+====================
