@@ -1,0 +1,2 @@
+Accidentally forgot to change the name, so model 1-15 for trial 6 is overwritten by tiral 6.5
+Lost the log. But did not reach test accuracy above trial 6. 
