@@ -1,0 +1,115 @@
+Epoch 1
+Training Loss:  1.1736976767420777 Time:  1850.086897611618 s
+Testing Loss:  1.1384395781024617
+Testing Accuracy:  65.81027024765082 %
+====================
+Epoch 2
+Training Loss:  1.0053505827013156 Time:  1872.4421792030334 s
+Testing Loss:  1.090052567851966
+Testing Accuracy:  67.15316513308835 %
+====================
+Epoch 3
+Training Loss:  0.9628938065770867 Time:  1934.1954271793365 s
+Testing Loss:  1.0642174227674055
+Testing Accuracy:  67.93015748043699 %
+====================
+Epoch 4
+Training Loss:  0.9378342185443479 Time:  1986.8259973526 s
+Testing Loss:  1.040224711093692
+Testing Accuracy:  68.53594287039778 %
+====================
+Epoch 5
+Training Loss:  0.9203997336303082 Time:  2014.2003972530365 s
+Testing Loss:  1.0301915763669687
+Testing Accuracy:  68.93947260611189 %
+====================
+Epoch 6
+Training Loss:  0.9074885685524569 Time:  2070.091655731201 s
+Testing Loss:  1.0224749068794854
+Testing Accuracy:  69.1324808115437 %
+====================
+Epoch 7
+Training Loss:  0.897442256651584 Time:  2023.597357749939 s
+Testing Loss:  1.0130547694379108
+Testing Accuracy:  69.41744688787183 %
+====================
+Epoch 8
+Training Loss:  0.889401690359717 Time:  1981.565009355545 s
+Testing Loss:  1.008843698622341
+Testing Accuracy:  69.54448307019435 %
+====================
+Epoch 9
+Training Loss:  0.883067260003154 Time:  1938.44007229805 s
+Testing Loss:  1.0037978209084193
+Testing Accuracy:  69.71987462732523 %
+====================
+Epoch 10
+Training Loss:  0.877928287757163 Time:  1915.8735167980194 s
+Testing Loss:  1.0023182146812804
+Testing Accuracy:  69.73671634974782 %
+====================
+Epoch 11
+Training Loss:  0.8737789108608468 Time:  1905.4304287433624 s
+Testing Loss:  0.9990241986257757
+Testing Accuracy:  69.86731719111067 %
+====================
+Epoch 12
+Training Loss:  0.870421767555325 Time:  1882.7722091674805 s
+Testing Loss:  0.9964665247945677
+Testing Accuracy:  69.91877226943242 %
+====================
+Epoch 13
+Training Loss:  0.8677042654874209 Time:  1843.8793535232544 s
+Testing Loss:  0.9944781125502213
+Testing Accuracy:  69.98071467797439 %
+====================
+Epoch 14
+Training Loss:  0.8654966382979818 Time:  1808.921988248825 s
+Testing Loss:  0.9940178622859901
+Testing Accuracy:  69.97518687337556 %
+====================
+Epoch 15
+Training Loss:  0.8636751110377435 Time:  1789.2781591415405 s
+Testing Loss:  0.9928683863252724
+Testing Accuracy:  70.0181694287608 %
+====================
+Epoch 16
+Training Loss:  0.8622568209923989 Time:  1798.67249584198 s
+Testing Loss:  0.9916610530888205
+Testing Accuracy:  70.05247281430864 %
+====================
+Epoch 17
+Training Loss:  0.8610708406071114 Time:  1808.333156824112 s
+Testing Loss:  0.9915649036969718
+Testing Accuracy:  70.05696738440301 %
+====================
+Epoch 18
+Training Loss:  0.8601101667335228 Time:  1791.7591433525085 s
+Testing Loss:  0.990559687194087
+Testing Accuracy:  70.07236257851936 %
+====================
+Epoch 19
+Training Loss:  0.8593250386737564 Time:  1766.189481973648 s
+Testing Loss:  0.9905993679045244
+Testing Accuracy:  70.08620792087903 %
+====================
+Epoch 20
+Training Loss:  0.85868516925561 Time:  1752.0379121303558 s
+Testing Loss:  0.9908327480289899
+Testing Accuracy:  70.08243661493778 %
+====================
+
+lr = 1e-4
+
+
+for i in range(n_epochs):
+    print("Epoch", i+1)
+    optimizer = optim.Adam(model.parameters(), lr = lr)
+    lr = 0.8*lr
+    
+model = Simple_MLP([40*(2*context_size+1), 256, 128, 128, 71])
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr = 1e-4)
+device = torch.device("cuda" if cuda else "cpu")
+model.to(device)
+print(model)
